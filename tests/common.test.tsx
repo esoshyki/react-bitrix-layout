@@ -1,3 +1,5 @@
 describe('Common Test', () => {
-  it('All done', () => true)
+  it('All done', () => {
+    expect(true).toBe(true)
+  })
 })

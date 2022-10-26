@@ -1,6 +1,6 @@
 {
   "name": "react-bitrix-layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bitrix Layout for react apps",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",

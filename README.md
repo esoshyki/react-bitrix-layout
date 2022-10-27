@@ -8,3 +8,5 @@
 
   export default withBitrixLayout(App)
 ```
+
+![example](./image.png)

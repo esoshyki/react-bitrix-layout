@@ -45822,6 +45822,10 @@ body::-webkit-scrollbar {
   top: 0;
   right: 0; /* width of the entire scrollbar */
 }
+
+body {
+  overflow-x: hidden
+}
     
     
       `}

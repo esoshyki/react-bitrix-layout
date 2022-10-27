@@ -12,7 +12,7 @@ const bodyStyles = {
   overflowX: 'hidden',
 } as any
 
-export default function Layout(props: PropsWithChildren<{}>) {
+export default function Layout(props: PropsWithChildren<any>) {
   return (
     <Fragment>
       <body style={bodyStyles}>
@@ -703,7 +703,7 @@ export default function Layout(props: PropsWithChildren<{}>) {
                 <path
                   d='M31.342 20.557a7.5 7.5 0 0 0-9.524 10.352A15.96 15.96 0 0 1 16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16c0 1.583-.23 3.113-.658 4.557z'
                   fill='#D8D8D8'
-                  fill-rule='evenodd'
+                  fillRule='evenodd'
                 ></path>
               </clipPath>
             </defs>
